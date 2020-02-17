@@ -1,0 +1,21 @@
+import numpy as np
+
+class Geometry:
+
+    def  __init__(self, w_st, h_st, t_st, c_a, h, n_st):
+        self.w_st = w_st     # width of the stringer
+        self.h_st = h_st     # height of the stringer
+        self.t_st = t_st     # thickness of the stringer
+        self.c_a = c_a       # length of chord
+        self.h = h           # height of spar
+        self.n_st = n_st     # number of stringers
+
+    def area(self):
+        return (w_st+h_st)*t_st
+
+    def z_i(self):
+
+    def y_i(self):
+
+    def centroid(self, self.z_i(), self.y_i()):
+        
